@@ -4,5 +4,5 @@
 3. Deploed EC2 instance to the created VPC using auto-scaling group (Desired =2) in which the Apache server is installed.
 
 JENKINS PIPELINE:
-   Launched Jenkins server ine a new EC2 instance and created a pipeline job which this as the Git Repository.
-   Executed the CHECKOUT, PLAN and Manual Apply in Jenkins.
+   Launched Jenkins server in a new EC2 instance and created a pipeline job with this Git Repository.
+   Automated the CHECKOUT, PLAN and Manual Apply in Jenkins.
