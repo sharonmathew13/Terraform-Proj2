@@ -1,8 +1,5 @@
 "# Terraform-Project-2" 
-1. Created a VPC with CIDR: 10.0.0.0/16 and 2 subnets with CIDR in 10.0.1.0/24 and 10.0.2.0/24.
-2. Attached an Internet Gateway and route table.
-3. Deploed EC2 instance to the created VPC using auto-scaling group (Desired =2) in which the Apache server is installed.
-
-JENKINS PIPELINE:
-   Launched Jenkins server in a new EC2 instance and created a pipeline job with this Git Repository.
-   Automated the CHECKOUT, PLAN and Manual Apply in Jenkins.
+Created a VPC with two subnets and an Internet Gateway, using CIDR blocks 10.0.0.0/16, 10.0.1.0/24, and 10.0.2.0/24.
+Configured auto-scaling group to deploy two EC2 instances in the VPC, with Apache server installed.
+Set up Jenkins server in a separate EC2 instance and created a pipeline job for Git repository, automating CHECKOUT, PLAN, and Manual Apply.
+Demonstrated proficiency in AWS infrastructure setup and automation tools like Jenkins.
